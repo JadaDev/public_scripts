@@ -1,5 +1,7 @@
 > This system was made by JadaDev.
-> 
+>
+> Artamedes_MOD script was Edited by Artamedes
+>
 > DO NEVER REMOVE CREDITS.
 > 
 > Edit it freely.
