@@ -108,6 +108,7 @@ class RewardSystemMgr
 
                 // update reward_system to make sure that he received the reward by the character guid and the reward id
                 CharacterDatabase.PExecute("UPDATE reward_system SET obtained = 1 WHERE character_guid = %u AND reward_id = %u", player->GetGUID().GetCounter(), playTimeReward.ID);
+                _claimedPlayedTimeRewards[player->GetGUID().GetCounter()].insert(playTimeReward.ID);
             }
         }
 
