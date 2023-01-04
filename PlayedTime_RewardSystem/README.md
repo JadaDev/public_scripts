@@ -13,7 +13,7 @@
 > Much love Jada.
 
 
-#Setup : 
+>Setup : 
 
 1. Run Both SQL files in your characters database 'reward_played_time.sql' & 'reward_system.sql'.
 2. Place 'Reward_System.cpp' Inside your custom folder (..Source\src\server\scripts\Custom).
