@@ -31,6 +31,6 @@ CREATE TABLE `reward_played_time` (
 -- ----------------------------
 -- Records of reward_played_time
 -- ----------------------------
-INSERT INTO `reward_played_time` VALUES ('1', '1800', '60999', '50', '100', 'Thank you for playing on our server, You have received a reward due to your 30 Minutes dedication toward our server.');
+INSERT INTO `reward_played_time` VALUES ('1', '1800', '60999', '50', '100', 'Thank you for playing on our server, You have received a reward due to your 30 Minutes dedication on our server.');
 INSERT INTO `reward_played_time` VALUES ('2', '9000', '60999', '200', '500', 'You\'ve been playing for 2 Hours and 30 Minutes on our server, here\'s your reward.');
-INSERT INTO `reward_played_time` VALUES ('3', '86400', '60999', '500', '5000', 'You have achived 1 Day playing on our server, Thank you for your dedicated. Please check your reward.');
+INSERT INTO `reward_played_time` VALUES ('3', '86400', '60999', '500', '5000', 'You have achived 1 Day playing on our server, Thank you for your dedication towards our server. Please check your reward.');
