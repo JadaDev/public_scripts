@@ -1,4 +1,4 @@
->Made by JadaDev Added Areas Also [ DO NOT REMOVE CREDITS ] 
+>Made by JadaDev Added Areas & Zones Also [ DO NOT REMOVE CREDITS ] 
 >
 >Sanctuary Zones & Areas works on all
 >
