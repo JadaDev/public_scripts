@@ -11,7 +11,7 @@ function OnGettingKilledByCreature(event, killer, killed)
 
   local name = killed:GetName()
   local areaId = killed:GetAreaId()
-  if areaId == 2317 or areaId == 876 then -- mall
+  if areaId == 2317 or areaId == 876 then -- mall [ Instant Revive ]
     killed:ResurrectPlayer()
   end
   if areaId == 3792 or areaId == 4991 or areaId == 4272  then --Start-- turn off countdown when the player leaves dungeon
