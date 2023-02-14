@@ -2,8 +2,8 @@
 -- DO NOT REMOVE CREDITS
 -- DO NOT SHARE THIS SCRIPT UNLESS YOU HAVE PERMISION FROM JADADEV A SCREENSHOT IS REQUIRED
 countdownRunning = false
-instantReviveAreas = {2317, 876}
-countdownReviveAreas = {3792, 4991, 4272}
+instantReviveAreas = {2317, 876} -- This where your Mall Area ID's Should be IN.
+countdownReviveAreas = {3792, 4991, 4272} -- This is where Your Dungeons AreaID or Locations that you want the players to be revived while fighting creature or getting reflective damage from friendly or getting killed by a player in general.
 
 function OnGettingKilledByCreature(event, killer, killed)
     local resSpellId = killed:GetUInt32Value(1199)
