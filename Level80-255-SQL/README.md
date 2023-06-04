@@ -21,24 +21,19 @@ Before using these SQL scripts, make sure you have the following:
     
 3.  Execute the following SQL scripts in the provided order:
     
-
-### 1. `player_max_level.sql`
-
-This script modifies the player table, increasing the maximum level to 255.
-
-### 2. `xp_max_level.sql`
+### 1. `player_xp_for_level.sql`
 
 This script updates the XP requirements for each level up to level 255, ensuring a smooth progression.
 
-### 3. `stats_max_level.sql`
+### 2. `player_levelstats.sql` & `player_classlevelstats.sql`
 
 This script adjusts the character stats to accommodate the increased maximum level.
 
-### 4. `pets_max_level.sql`
+### 3. `pet_levelstats.sql`
 
 This script modifies the pet table, allowing pets to reach level 255 alongside the players.
 
-### 5. `creatures_max_level.sql`
+### 4. `Creature_Classlevelstats.sql`
 
 This script updates the creature table, increasing the level limit for creatures in the game.
 
