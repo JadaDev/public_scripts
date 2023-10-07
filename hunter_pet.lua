@@ -11,6 +11,7 @@ function OnGossipHello(event, player, unit)
     if IsHunter(player) then
         player:GossipClearMenu()
         player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Druid_HealingInstincts:30:30|tIncrease Pet Happiness", 0, 1)
+        player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Hunter_BeastSoothe:30:30|tRevive Pet", 0, 5)
         player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Hunter_BeastTaming:30:30|tReset Pet Talents", 0, 2)
         player:GossipMenuAddItem(0, "|TInterface\\icons\\Ability_Hunter_MarkedForDeath:30:30|tNevermind", 0, 4)
         player:GossipSendMenu(1, unit)
@@ -34,6 +35,10 @@ function OnGossipSelect(event, player, unit, sender, action)
         player:SendBroadcastMessage("You're not a Hunter and cannot use these options.")
         player:GossipComplete()
     elseif action == 4 then
+        player:GossipComplete()
+    elseif action == 5 then
+        player:CastSpell(player, 982, true)
+        player:SendBroadcastMessage("Your pet has been revived!")
         player:GossipComplete()
     end
 end
