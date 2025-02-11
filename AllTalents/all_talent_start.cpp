@@ -56,7 +56,7 @@ public:
     }
 
 };
-void Default_All_Talents()
+void AddSC_Default_All_Talents()
 {
-new Default_Talent_Active();
+	new Default_Talent_Active();
 }
